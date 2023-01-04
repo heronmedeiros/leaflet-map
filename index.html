@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My first Leaflet Map</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='./lib/leaflet/leaflet.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./map.css'>
-    <script src='./lib/leaflet/leaflet.js'></script>
-</head>
-<body>
-    <div id="map"></div>
-</body>
-<script src='./map.js'></script>
+    <head>
+        <title>My first Leaflet Map</title>
+        <link rel='stylesheet' type='text/css' href='lib/leaflet/leaflet.css'>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+        crossorigin=""/>
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin=""></script>
+    </head>
+    <body>
+        <div id="map" style="width: 600px; height: 400px;"></div>
+        <h1>Heron</h1>
+    </body>
 </html>
